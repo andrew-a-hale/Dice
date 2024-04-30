@@ -1,2 +1,6 @@
 # dice
-Playing with interfaces in Java.
+Modelling a set of Dice in multiple languages.
+
+## Languages
+- [x] Java
+- [ ] Go
