@@ -1,7 +1,8 @@
-package dice;
+package dice.java;
 
 public interface DiceSet<T, U> {
     void add(T t);
-    U throwDie();
+
+    U throwDice();
 }
 

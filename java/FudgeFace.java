@@ -1,4 +1,4 @@
-package dice;
+package dice.java;
 
 public enum FudgeFace {
     PLUS, MINUS, NOTHING;
