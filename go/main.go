@@ -8,14 +8,8 @@ import (
 
 func main() {
 	nds := &dice.NumericDiceSet{}
-	nds.Add(dice.MakeNumericDie(20))
-	nds.Add(dice.MakeNumericDie(20))
-	nds.Add(dice.MakeNumericDie(20))
-	fmt.Println(nds.Throw())
+	fmt.Println(dice.LoadAndThrow(nds, 200, 3))
 
 	fds := &dice.FudgeDiceSet{}
-	fds.Add(dice.MakeFudgeDie())
-	fds.Add(dice.MakeFudgeDie())
-	fds.Add(dice.MakeFudgeDie())
-	fmt.Println(fds.Throw())
+	fmt.Println(dice.LoadAndThrow(fds, 3, 10))
 }
